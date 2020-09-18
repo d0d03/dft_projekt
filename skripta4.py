@@ -5,9 +5,7 @@ import cv2 as cv
 from scipy import signal
 import timeit
 
-print(colored('''Ovaj program efektivnost prostorne i frekvencijske konovlucije kako bi se utvrdilo koja ima brže vrijeme izvođenja. Fukcije su sadržane u SciPy.signal biblioteci
-	
-	Upute: skripta3.py putanja_slike -- default imageTextR.png ''','green'))
+print(colored('''Ovaj program efektivnost prostorne i frekvencijske konovlucije kako bi se utvrdilo koja ima brže vrijeme izvođenja. Fukcije su sadržane u SciPy.signal biblioteci''','green'))
 
 im = cv.imread('./images/baboon.bmp',cv.IMREAD_GRAYSCALE)
 
